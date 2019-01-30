@@ -43,6 +43,6 @@ if __name__ == '__main__':
 
     target_dictionary = {}
     ip_address = raw_input("Enter ip address (e.g = 192.168.1.1 or 192.168.1.1/24) : ")
-    scan_network("192.168.11.1/24")
+    scan_network(ip_address)
     print target_dictionary
 
